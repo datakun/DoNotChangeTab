@@ -1,0 +1,23 @@
+{
+  "description": {
+    "message": "On the Twitter home screen, you can choose which screen to see in 'For You / Following'."
+  },
+  "twitter_please": {
+    "message": "Twitter, please always show me the screen opened last."
+  },
+  "yes": {
+    "message": "Yes"
+  },
+  "no": {
+    "message": "No"
+  },
+  "for_you": {
+    "message": "For You (추천 / おすすめ)"
+  },
+  "following": {
+    "message": "Following (팔로우 중 / フォロー中)"
+  },
+  "last_opened": {
+    "message": "Last Opened"
+  }
+}

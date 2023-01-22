@@ -1,0 +1,47 @@
+{
+  "name": "donotchangetab",
+  "version": "1.0.0",
+  "description": "Twitter, Please DO NOT change a tab.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "prettier": "prettier --write --config ./.prettierrc \"./\"",
+    "lint": "eslint \"./src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datakun/DoNotChangeTab.git"
+  },
+  "keywords": [
+    "Twitter",
+    "Following",
+    "Tab"
+  ],
+  "author": "datakun",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/datakun/DoNotChangeTab/issues"
+  },
+  "homepage": "https://github.com/datakun/DoNotChangeTab#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.209",
+    "@types/jquery": "^3.5.16",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "prettier": "^2.8.3",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webextension-polyfill": "^0.10.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3"
+  }
+}

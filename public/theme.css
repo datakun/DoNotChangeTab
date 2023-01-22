@@ -1,0 +1,17 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#divContainer {
+  min-width: max-content;
+  padding: 8px;
+}
+
+#title {
+  font-size: 1.4em;
+}
+
+#divContainer label {
+  font-size: 1.2em;
+}

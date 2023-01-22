@@ -1,0 +1,23 @@
+{
+  "description": {
+    "message": "Twitterのホーム画面で、「おすすめ/フォロー中」からどの画面を表示するかを選択できます。"
+  },
+  "twitter_please": {
+    "message": "Twitter, いつも次の画面を見せてくれる。"
+  },
+  "yes": {
+    "message": "はい"
+  },
+  "no": {
+    "message": "いいえ"
+  },
+  "for_you": {
+    "message": "おすすめ (For You / 추천)"
+  },
+  "following": {
+    "message": "フォロー中 (Following / 팔로우 중)"
+  },
+  "last_opened": {
+    "message": "最後に開いた"
+  }
+}
